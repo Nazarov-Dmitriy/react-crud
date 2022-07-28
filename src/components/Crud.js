@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React, {  useState } from "react";
 import CrudFetch from "./CrudFetch";
 import Forms from "./Forms";
 
 
 export default function Crud() {
-  const [message, setMessage] = useState([]);
+  const [message, setMessage] = useState('');
 
   const handleAdd = (mess) => {
     setMessage(mess);
